@@ -1,0 +1,26 @@
+h1,p{
+    text-align: center;  
+}
+h1{
+    background-color: aquamarine;
+}
+label{
+
+   display: inline-block;
+   width: 250px;
+}
+
+form  { 
+    margin-left: 25%;
+    margin-top: 50px;
+}
+div{
+    margin-bottom: 10px;
+}
+.radio{
+    width: 130px;
+}
+body{
+    border-left: 15px solid aquamarine ;
+    border-right:15px solid aquamarine  ;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Surveyform</title>
+    <link rel="stylesheet" href="survey.css" />
+  </head>
+  <body>
+    <h1>Survey form</h1>
+    <p>Let us know how we can improve freeCodeCamp</p> 
+    <form action="">
+      <div>
+       <label for="name">Name</label>
+        <input type="text" name="name" placeholder="Enter your name" />
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" placeholder="Enter your Email" />
+      </div>
+      <div>
+        <label for="age">Age</label>
+        <input type="number" name="age" placeholder="Age" />
+      </div>
+      <div>
+        <label for="currentRole"
+          >Which option best describes your current role</label
+        >
+        <select name="currentRole">
+          <option value="student">Student</option>
+          <option value="Working">Working</option>
+          <option value="Non-working">Non-working</option>
+        </select>
+      </div>
+      <div>
+        <label
+          >How likely is that you would recommand freeCodeCamp to a
+          friend</label
+        >
+        <input type="radio" name="definitely" value="definitely" />
+        <label class="radio" for="definitely">Definitely</label><br>
+        <label> </label>
+        <input type="radio" name="maybe" value="maybe" />
+        <label class="radio" for="maybe">May be</label><br>
+        <label> </label>
+        <input type="radio" name="notSure" value="not sure" />
+        <label class="radio" for="notSure">Not Sure</label><br>
+      </div>
+      <div>
+        <label for="mostLike">What do you like most in FCC</label>
+        <select name="mostLike">
+          <option>Select an option</option>
+          <option value="contents">contents</option>
+          <option value="projects">Projects</option>
+        </select>
+      </div>
+      <div>
+        <label>Things that should be improved in the future [Check all that apply]:</label>
+        <input type="checkbox" value="front-end" />
+        <label class="radio">Front-end Projects</label><br>
+        <label> </label>
+        <input type="checkbox" value="back-end" />
+        <label class="radio">Back-end Projects</label><br>
+        <label> </label>
+        <input type="checkbox" value="dataVisualization" />
+        <label class="radio">Data Visualization</label><br>
+      </div>
+    </form>
+  </body>
+</html>

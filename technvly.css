@@ -1,0 +1,21 @@
+
+.rectangle{
+  height: 250px;
+  width: 700px;
+  background-color:green;
+  opacity: 50%;
+  align-items: center;
+  margin-left: 25%;
+  margin-top: 15%;
+  
+}
+h1{
+  font-style: arial;font-size: large;
+  color: whitesmoke;
+  text-align: center;
+}
+p{
+  font-size: medium;font-style: arial;
+  color: aliceblue;
+  text-align: center;
+}

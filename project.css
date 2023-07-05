@@ -1,0 +1,34 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style-type: none;
+    border-bottom: 2px solid black;
+    padding: 10px 0;
+    border-right: 2px solid black;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#contents{
+    margin:0 20px ;
+    margin-bottom: 180px;
+}
+#sidebar{
+    width: 50%;
+}
+ul h1{
+    border-right: 2px solid black;
+    border-bottom: 2px solid black; 
+    margin-bottom:0 ;  
+}
+ul{
+    padding-left: 10px;
+}
+
+

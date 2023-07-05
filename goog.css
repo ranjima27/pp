@@ -1,0 +1,54 @@
+#grid,#userLogo{
+    height: 23px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style-type: none;
+}
+nav,footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+}
+li{
+    padding-left: 10px;
+}
+#userLogo{
+    border-radius: 50%;
+}
+main img{
+    width: 350px;
+    margin-top: 100px;
+} 
+input{
+    display: block;
+    width: 350px;
+    height: 25px;
+}
+main{
+    padding-left: 40% ;
+}
+button{
+    background-color: rgb(203, 199, 199);
+    padding: 5px 10px;
+    border-color:rgb(203, 199, 199) ;
+}
+#search{
+    margin-left: 50px;
+}
+footer{
+    background-color:rgb(203, 199, 199) ;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.right{
+    margin-right: 30px;
+}

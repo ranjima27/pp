@@ -1,0 +1,49 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    margin-left: 800px;
+   
+}
+li{
+    list-style-type: none;
+}
+nav li{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+
+    
+}
+a{
+    color: black;
+    text-decoration:lightseagreen;
+   }
+
+section{
+    background-image: url(https://miro.medium.com/v2/resize:fit:1200/1*TpUOBHLe2G-I6LXI3cLkwQ.jpeg);
+    height: 500px;
+    background-size: 100% 100%;
+    text-align: center;
+
+    
+}
+section h1{
+    
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    padding-top: 300px;
+
+}
+
+section p{
+    text-align: center;
+    font-size:  25px;
+     font-weight: lighter;
+    color: white;
+}
